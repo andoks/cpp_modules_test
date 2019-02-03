@@ -1,3 +1,5 @@
+#! /usr/bin/env bash
+
 CXX="clang++-libc++"
 common_flags="-Wall -Wextra -g -fmodules-ts -std=c++17"
 ${CXX} ${common_flags} --precompile -o module.pcm module.cppm
